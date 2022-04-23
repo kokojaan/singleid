@@ -220,7 +220,7 @@ RRAID = [
         "KE",
         "LUND",
         "SUAR",
-        "KE",,
+        "KE",
         "SUAE",
         "KE",
         "AULAD",
