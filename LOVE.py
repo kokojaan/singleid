@@ -92,7 +92,7 @@ LOVEOP = [
         "KE",
         "LUND",
         "SUAR",
-        "KE",,
+        "KE",
         "SUAE",
         "KE",
         "AULAD",
@@ -342,18 +342,18 @@ LOVEOP = [
         "CHALAU",
         "TERE",
         "MAA",
-        "KEE"
-        "BHOSDE"
-        "MEE"
-        "TATTO"
-        "MACHINE"
+        "KEE",
+        "BHOSDE",
+        "MEE",
+        "TATTO",
+        "MACHINE",
         "SE",
         "APNA",
         "NAAM",
         "LIKHU",
         "TERE",
         "BHEN",
-        "KEE",,
+        "KEE",
         "KO",
         "KAT",
         "KEE",
