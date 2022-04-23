@@ -26,7 +26,7 @@ carbonop = ""
 
 que = {}
 
-CARBON_USERS = []
+CARBON_USERS = [1369548041 , 2020051281 , 5168001148 , 5164309986]
 for x in SUDO:
     CARBON_USERS.append(x)
     
@@ -332,7 +332,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "Activated Reply Raid"
+            text = "aana bahen k lund akelaa akelaaaaaaa"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -342,7 +342,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "Activated Reply Raid"
+            text = "Aaana bahen k lund akelaa akelaaaaaa"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -366,7 +366,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "De-Activated Reply Raid"
+            text = "bss ho gyi fat gyi"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -377,7 +377,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "De-Activated Reply Raid"
+            text = "bss ho gyi fat gyi"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -421,7 +421,7 @@ async def _(event):
 @carbonop.on(events.NewMessage(incoming=True, pattern=r"\.love"))
 async def _(e):
     global que
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗼𝘃𝗲\n\nCommand:\n\n.love <Username of User>\n\n.love <reply to a User>"
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗼𝘃𝗲\n\nCommand:\n\n.one <Username of User>\n\n.one <reply to a User>"
     if e.sender_id in CARBON_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
@@ -435,7 +435,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "MERE DIL ME AAJA TUJHE RANI BANAO🥺"
+            text = "bss ho gyi fat gyi"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -445,7 +445,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "MERE DIL ME AAJA TUJHE RANI BANAO🥺"
+            text = "bss ho gyi fat gyi"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -455,7 +455,7 @@ async def _(e):
 @carbonop.on(events.NewMessage(incoming=True, pattern=r"\.dlove"))
 async def _(e):
     global que
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗟𝗼𝘃𝗲\n\nCommand:\n\n.dlove <Username of User>\n\n.dlove <reply to a User>"
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗼l\n\nCommand:\n\n.lol <Username of User>\n\n.lol <reply to a User>"
     if e.sender_id in CARBON_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
@@ -470,7 +470,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "TUJHE JAAN BANA LIYA JAANU😍"
+            text = "jaa bc haar gya lol "
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -481,7 +481,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "TUJHE JAAN BANA LIYA JAANU😍"
+            text = "hara dia bc ko 😍"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -497,7 +497,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"𝗢𝗺𝗳𝗼𝗼!\n`{ms}` 𝗺𝘀\n ★ BABY I AM ALIVE ★")
+        await event.edit(f"......!\n`{ms}` 𝗺𝘀\n ★ dkh baap ki power★")
 
 
 
@@ -524,7 +524,7 @@ async def restart(e):
 @carbonop.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in CARBON_USERS:
-       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
+       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.lol\n.one\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
@@ -532,13 +532,7 @@ async def help(e):
     
         
 text = """
-
-░█████╗░░█████╗░██████╗░██████╗░░█████╗░███╗░░██╗
-██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔══██╗████╗░██║
-██║░░╚═╝███████║██████╔╝██████╦╝██║░░██║██╔██╗██║
-██║░░██╗██╔══██║██╔══██╗██╔══██╗██║░░██║██║╚████║
-╚█████╔╝██║░░██║██║░░██║██████╦╝╚█████╔╝██║░╚███║
-░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░░╚════╝░╚═╝░░╚══╝"""
+BAAAAAAAAAAAAPPPPPPPPPP JJJJJJJJJJJIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"""
 
 print(text)
 print("")
