@@ -481,7 +481,7 @@ RRAID = [
         "LIKHU",
         "TERE",
         "BHEN",
-        "KEE",,
+        "KEE",
         "KO",
         "KAT",
         "KEE",
